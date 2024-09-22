@@ -6,7 +6,7 @@ We were inspired by architecture prints. One of our team members' cousins spends
 
 ## What it does
 
-MyDraw is an app that creates customized, meaningful coloring book pages. Users start by uploading a picture, which they can edit with deep generative models. We integrate a deep learning algorithm for edge detection called Holistically-Nested Edge Detection (Tu and Xie) which optimizes edge detection by taking semantics into account. This algorithm creates the coloring page itself, which can be printed to our CNC pen plotter machine for kids to color on.
+MyDraw is an app that creates customized, meaningful coloring book pages. Users start by uploading a picture, which they can edit with deep generative models (inpainting from Stable Diffusion). We integrate a deep learning algorithm for edge detection called Holistically-Nested Edge Detection (Tu and Xie) which optimizes edge detection by taking semantics into account. This algorithm creates the coloring page itself, which can be printed to our CNC pen plotter machine for kids to color on.
 Link to pretrained model (too big to upload to GitHub): https://vcl.ucsd.edu/hed/hed_pretrained_bsds.caffemodel
 
 After the coloring page is generated, we provide insights on ways to color the page creatively. One option is to pick coloring styles for the image. Users can pick between several art styles, like watercolor, 
